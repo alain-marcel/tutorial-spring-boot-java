@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.constraints.NotNull;
 
 /**
- * A POST request with simple response.
- * https://www.baeldung.com/spring-request-response-body
+ * A POST request with case class response.
+ *
+ * POST http://localhost:8080/hello3       { "name: "bob" }
  */
 @RestController
 public class Hello3Controller {

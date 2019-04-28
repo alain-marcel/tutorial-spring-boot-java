@@ -9,6 +9,8 @@ import javax.validation.constraints.NotNull;
 /**
  * A POST request with simple response.
  * https://www.baeldung.com/spring-request-response-body
+ *
+ * POST http://localhost:8080/hello2       { "name: "bob" }
  */
 @RestController
 public class Hello2Controller {

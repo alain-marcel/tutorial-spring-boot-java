@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * A GET request.
+ *
+ * GET/POST http://localhost:8080/hello1
  */
 @RestController
 public class Hello1Controller {
